@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Helper Classes */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.text-centered {
+    text-align: center;
+}
+/* Helper Classes */
+
+/* Header */
+
+body {
+    background-color: #EFD9C1;
+}
+
+nav {
+    background-color: #A9B7C0;
+    padding: 0 15px;
+}
+
+.brand {
+    height: 150px;
+    padding: 15px 15px;
+    
+    
+}
+
+.nav-links {
+    list-style-type: none;
+    margin-top: 45px; 
+    
+}
+
+.nav-links li {
+    display: inline-block;
+    background-color: #CCCBC6;
+    padding: 5px 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+}
+/* Header */
+
+/* Main Content */
+.hero {
+    height: 500px;
+    background-image: url("../img/burberry.jpg");
+    background-size: contain, cover;
+    background-position: center, center;
+    
+}
+
+
+.banner {
+    padding: 10px 15px;
+    background-color: #C7D8C6;
+    color: #000;
+    display: inline-block;
+    opacity: .70;
+    margin: 75px 0 0 300px;
+    font-size: 200%;
+    text-shadow: 4px 6px 5px #6300FF;
+   
+}
+
+.porter {
+    height: 250px;
+    margin-right: 700px;
+    border-radius: 40%;
+    
+}
+
+.card {
+    width: 20%;
+    background-color: #CCCBC6;
+    margin: 75px 0 75px 10%;
+    box-shadow: 5px 5px 8px #000;
+    padding: 25px;
+}
+.card img {
+    height: 200px; 
+    display: block;
+    border-radius: 100%;
+}
+.card h1, .card p {
+    margin-top: 20px;
+}
+/* /Main Content */
+
+/* Footer */
+footer section {
+    min-height: 100px;
+    width: calc(100% / 3);
+    border: 1px solid #000;
+}
+
+.i-container {
+    text-align: center;
+    width: 108px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+}
+
+.icon {
+    font-size: 36px;
+    color: #CD7993;
+}
+
+
+/* /Fooeter* /
+
+
+
+
+
+
+
+
